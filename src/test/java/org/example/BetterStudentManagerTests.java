@@ -28,7 +28,7 @@ public class BetterStudentManagerTests {
 
     @Test
     public void testGetStudentList() {
-        BetterStudentManager  manager = new BetterStudentManager();
+        BetterStudentManager manager = new BetterStudentManager();
         manager.addStudent("John", 90.9);
         manager.addStudent("Jane", 88.3);
         assert manager.getStudentList().equals("John 90.9\nJane 88.3\n");
